@@ -77,3 +77,8 @@ bash getModels.sh
 cd /openpose/examples/tutorial_api_python
 python3 01_body_from_image.py
 ```
+
+The examples also might not work. I included the edited 01_body_from_image.py script in this repo which should work fine.
+
+If the issue "cudnn dit not return a suitable algorithm for convolution" appears, you probably are running out of VRAM. Try lowering the net_resolution parameter in the script. You can check your VRAM with nvtop.
+For more information https://stackoverflow.com/questions/53698035/failed-to-get-convolution-algorithm-this-is-probably-because-cudnn-failed-to-in.
