@@ -1,6 +1,6 @@
 # Docker Image for OpenPose
 
-A docker build file for CMU openpose wwith Python API support.
+A docker build file for CMU openpose with Python API support.
 
 Credits: https://hub.docker.com/r/cwaffles/openpose
 
