@@ -5,7 +5,7 @@ A docker build file for CMU openpose with Python API support.
 Credits: https://hub.docker.com/r/cwaffles/openpose
 
 ## Disclaimer
-The openpose directory was adjusted to successfully build it. The models that need to be downloaded aren't hosted anymore so i uploaded them myself on dropbox. It is important that the download link has dl=1 at the end, so it directly downloads the file. The dropbox download link simply needs to be put in CMakeLists.txt like this:
+The openpose repo was adjusted to successfully build it. The models that need to be downloaded aren't hosted anymore, so i uploaded them myself on dropbox. It is important that the download link has dl=1 at the end, so it directly downloads the file. The dropbox download link simply needs to be put in CMakeLists.txt like this:
 ```bash
 download_model("BODY_25" ${DOWNLOAD_BODY_25_MODEL} https://www.dropbox.com/scl/fi/pfl1nonefgd2r3w42e2ij/pose_iter_584000.caffemodel?rlkey=hnj53tdg47d4fzgm9fz967tnb&st=n58uhf5p&dl=1
   78287B57CF85FA89C03F1393D368E5B7) # Body (BODY_25)
